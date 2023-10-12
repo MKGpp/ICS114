@@ -1,0 +1,71 @@
+Write a pseudo-code algorithm that gets a positive integer, max,
+from the user and then outputs the sum of the numbers from 1 to
+max
+
+    set sum to 0
+    get number, max from user
+
+    for number(max) times starting at 1(i) until you reach number(max)
+        add (i) number to sum
+        increment i
+
+    print value of sum
+
+
+Write a pseudo-code algorithm that outputs the largest of 5
+numbers input by the user.
+
+    set max to 0
+    set num to 0
+
+    for 5 times
+        get number from user
+        store number in num
+        if num is bigger than max
+            set max to num
+            
+    print value of max  
+
+
+Write a pseudo-code algorithm that accepts 3 integers from the
+user and outputs the largest of the three
+
+    largestNum = 0
+    
+    for 3 times
+        get number from user
+        
+        if numA is bigger than numB and numC
+            numA is largestNum
+        else if numB is bigger than numA and numC
+            numB is largestNum
+        else
+            numC is largestNum    
+
+
+Write a pseudo-code algorithm that accepts 3 integers from the
+user and outputs the smallest of the three
+
+    smallestNum = 0
+    
+    for 3 times
+        get number from user
+        
+        if numA is smaller than numB and numC
+            numA is smallestNum
+        else if numB is smaller than numA and numC
+            numB is smallestNum 
+        else
+            numC is smallestNum
+            
+Write a pseudo-code algorithm that outputs the factorial of an
+integer given by the user.
+
+    set product to 1
+    get number, max from user
+
+    for number(max) times starting at 1(i) until you reach number(max)
+        multiply (i) number with prouct
+        increment i
+
+    print value of product
